@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:brick"
+  },
+  "pattern": [
+    "B B",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "savannahcat:food_water_bowl"
+  }
+}

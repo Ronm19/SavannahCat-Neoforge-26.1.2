@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "minecraft:oak_planks",
+    "S": "minecraft:stick",
+    "W": "minecraft:white_wool"
+  },
+  "pattern": [
+    " W ",
+    " S ",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "savannahcat:scratching_post"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "entity.savannah_cat.ambient": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.ambient",
+        "weight": 3
+      },
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.beg_for_food",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.ambient"
+  },
+  "entity.savannah_cat.death": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.death"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.death"
+  },
+  "entity.savannah_cat.drinking": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.generic.drink"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.drinking"
+  },
+  "entity.savannah_cat.eating": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.eat"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.eating"
+  },
+  "entity.savannah_cat.growl": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.hiss",
+        "pitch": 0.72
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.growl"
+  },
+  "entity.savannah_cat.hiss": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.hiss"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.hiss"
+  },
+  "entity.savannah_cat.hurt": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.hurt"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.hurt"
+  },
+  "entity.savannah_cat.playing": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.beg_for_food"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.playing"
+  },
+  "entity.savannah_cat.purr": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.purr"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.purr"
+  },
+  "entity.savannah_cat.revival": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.purr"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.revival"
+  },
+  "entity.savannah_cat.scratching": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:block.wood.hit"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.scratching"
+  },
+  "entity.savannah_cat.sleeping": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.purr",
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.sleeping"
+  },
+  "entity.savannah_cat.step": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:block.grass.step"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.step"
+  },
+  "entity.savannah_cat.taming": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "minecraft:entity.cat.purreow"
+      }
+    ],
+    "subtitle": "subtitles.savannahcat.taming"
+  }
+}

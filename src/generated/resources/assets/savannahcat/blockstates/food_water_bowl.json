@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "has_food=false,has_water=false": {
+      "model": "savannahcat:block/food_water_bowl_empty"
+    },
+    "has_food=false,has_water=true": {
+      "model": "savannahcat:block/food_water_bowl_water"
+    },
+    "has_food=true,has_water=false": {
+      "model": "savannahcat:block/food_water_bowl_food"
+    },
+    "has_food=true,has_water=true": {
+      "model": "savannahcat:block/food_water_bowl"
+    }
+  }
+}

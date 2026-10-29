@@ -1,0 +1,267 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#pot"
+        },
+        "east": {
+          "texture": "#pot"
+        },
+        "north": {
+          "texture": "#pot"
+        },
+        "south": {
+          "texture": "#pot"
+        },
+        "up": {
+          "texture": "#pot"
+        },
+        "west": {
+          "texture": "#pot"
+        }
+      },
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        2,
+        14
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#pot"
+        },
+        "east": {
+          "texture": "#pot"
+        },
+        "north": {
+          "texture": "#pot"
+        },
+        "south": {
+          "texture": "#pot"
+        },
+        "up": {
+          "texture": "#pot"
+        },
+        "west": {
+          "texture": "#pot"
+        }
+      },
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        14,
+        4,
+        3
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#pot"
+        },
+        "east": {
+          "texture": "#pot"
+        },
+        "north": {
+          "texture": "#pot"
+        },
+        "south": {
+          "texture": "#pot"
+        },
+        "up": {
+          "texture": "#pot"
+        },
+        "west": {
+          "texture": "#pot"
+        }
+      },
+      "from": [
+        2,
+        2,
+        13
+      ],
+      "to": [
+        14,
+        4,
+        14
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#pot"
+        },
+        "east": {
+          "texture": "#pot"
+        },
+        "north": {
+          "texture": "#pot"
+        },
+        "south": {
+          "texture": "#pot"
+        },
+        "up": {
+          "texture": "#pot"
+        },
+        "west": {
+          "texture": "#pot"
+        }
+      },
+      "from": [
+        2,
+        2,
+        3
+      ],
+      "to": [
+        3,
+        4,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#pot"
+        },
+        "east": {
+          "texture": "#pot"
+        },
+        "north": {
+          "texture": "#pot"
+        },
+        "south": {
+          "texture": "#pot"
+        },
+        "up": {
+          "texture": "#pot"
+        },
+        "west": {
+          "texture": "#pot"
+        }
+      },
+      "from": [
+        13,
+        2,
+        3
+      ],
+      "to": [
+        14,
+        4,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#pot"
+        },
+        "east": {
+          "texture": "#pot"
+        },
+        "north": {
+          "texture": "#pot"
+        },
+        "south": {
+          "texture": "#pot"
+        },
+        "up": {
+          "texture": "#pot"
+        },
+        "west": {
+          "texture": "#pot"
+        }
+      },
+      "from": [
+        7,
+        2,
+        3
+      ],
+      "to": [
+        8,
+        4,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#water"
+        },
+        "east": {
+          "texture": "#water"
+        },
+        "north": {
+          "texture": "#water"
+        },
+        "south": {
+          "texture": "#water"
+        },
+        "up": {
+          "texture": "#water"
+        },
+        "west": {
+          "texture": "#water"
+        }
+      },
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        7,
+        3,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#food"
+        },
+        "east": {
+          "texture": "#food"
+        },
+        "north": {
+          "texture": "#food"
+        },
+        "south": {
+          "texture": "#food"
+        },
+        "up": {
+          "texture": "#food"
+        },
+        "west": {
+          "texture": "#food"
+        }
+      },
+      "from": [
+        8,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        3,
+        13
+      ]
+    }
+  ],
+  "textures": {
+    "food": "minecraft:block/brown_terracotta",
+    "particle": "minecraft:block/terracotta",
+    "pot": "minecraft:block/terracotta",
+    "water": "minecraft:block/blue_terracotta"
+  }
+}

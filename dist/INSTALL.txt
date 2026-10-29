@@ -1,0 +1,54 @@
+Fun Time with the Savannah Cat — 1.0.0
+
+Required versions
+  Minecraft 26.1.2
+  NeoForge 26.1.2.122
+  GeckoLib 5.5.2 for NeoForge / Minecraft 26.1.2
+  Java 25
+
+Install
+  1. Close Minecraft and stop the server. Back up the world before updating.
+  2. Use the Minecraft 26.1.2 profile with NeoForge 26.1.2.122.
+  3. Put savannahcat-1.0.0.jar and
+     geckolib-neoforge-26.1.2-5.5.2.jar in that profile's mods folder.
+  4. Install both matching JARs on every client and the dedicated server.
+     Keep only one Savannah Cat version in each mods folder.
+  5. Launch with Java 25. Open CONFIGURATION.md for server settings and
+     BEDTIME.md, HARVEST.md, FAMILY.md, HOME_LIFE.md and AUDIO.md for controls and behavior.
+
+Use the ordinary runtime JAR. Do not install a sources JAR, test mod,
+development harness or the project source ZIP in the mods folder.
+
+This Minecraft 26.1.2 port preserves the existing adult/kitten family life,
+bedtime, Harvest, responsive Hunt, furniture, fishing, sounds and approved
+artwork. Current test results and their limits are in PORT_TESTS_26.1.2.md.
+RELEASE_TESTS_2026-10-27.md retains the earlier Minecraft 26.1 evidence.
+
+Audio uses documented, approved vanilla Minecraft recordings.
+Fourteen Savannah Cat events and subtitles reference native recordings;
+Custom recordings are not required. Adult Susan keeps
+her established cue and default pitch. AUDIO.md lists every mapping.
+
+For developers
+  Open the source project in IntelliJ as a Gradle project using JDK 25.
+  Generate mechanical resources with .\gradlew.bat runData, then build with
+  .\gradlew.bat clean build. Runtime output is under build\libs.
+  Keep the pinned Minecraft, NeoForge and GeckoLib versions above.
+  After updating the live IntelliJ project, reload Gradle once. The client
+  run prepares its launch arguments before starting, including after clean.
+  The final installed project should also have prepareClientRun completed.
+
+Fresh verification and remaining listening, long-session and external-network
+checks are recorded in PORT_TESTS_26.1.2.md. RELEASE_AUDIT.md and
+TEST_RESULTS.md preserve older evidence. The isolated development test world
+is not a player-world requirement.
+
+Optional JEI
+  JEI 29.47.0.110 for Minecraft 26.1.2 / NeoForge is supported.
+  Install matching JEI on clients and server for complete multiplayer
+  crafting views. Savannah Cat itself runs without JEI.
+  JEI is not bundled; see JEI.md and PORT_TESTS_26.1.2.md.
+
+This JAR targets Minecraft 26.1.2. Update the actual launcher profile too.
+PORT_26.1.2.md lists required GeckoLib and the inspected profile's
+Controlling/Searchables replacements. PORT_TESTS_26.1.2.md is current proof.
